@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700&display=swap');
+*{
+   font-family: 'Inter', sans-serif;
+}
+.posteAutor{
+    color: #F3BF99;
+}
+.nameAutor{
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+.website{
+   padding-bottom: 10px; 
+}
+.containerbtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #DCDCDC;
+    
+}
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 75%;
+    border-radius: 20px;
+    gap: 10px;
+    align-items: center;
+    background-color: #D1D5DB;
+    cursor: pointer;
+    
+}
+.paragraph{
+font-family: 'Inter', sans-serif;
+font-size: 13px;
+font-style: normal;
+text-align: left;
+padding-left: 2rem;
+color: #DCDCDC;
+margin-top: 1px;
+}
